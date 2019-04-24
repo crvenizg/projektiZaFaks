@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.DelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="DelWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Write opis" HorizontalAlignment="Left" Margin="32,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.943,-0.906"/>
+        <TextBox x:Name="opisTextBox" HorizontalAlignment="Left" Height="23" Margin="105,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="624"/>
+        <Label Content="Select date" HorizontalAlignment="Left" Margin="32,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.943,-0.906"/>
+        <DatePicker x:Name="zavrsavaDate" Margin="105,89,63,301" />
+        <Button Content="Delete Record From Table" HorizontalAlignment="Left" Margin="233,339,0,0" VerticalAlignment="Top" Width="326" Height="41" Click="buttonDel"/>
+        <Button Content="Update Record"  Width="326" Height="41" Margin="233,143,233,235" Click="buttonUpdate"/>
+    </Grid>
+</Window>
